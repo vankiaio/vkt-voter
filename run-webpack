@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd /opt/project/vkt-voter
+nodejs node_modules/webpack/bin/webpack.js src/votefrontend.js --output public/bin/app.js -d --watch
+

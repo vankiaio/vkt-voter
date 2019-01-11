@@ -1,0 +1,5 @@
+#! /bin/bash
+
+cd /opt/project/vkt-voter
+npm run-script startdev
+
