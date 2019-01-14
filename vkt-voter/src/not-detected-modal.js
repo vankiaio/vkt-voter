@@ -8,10 +8,10 @@ class NotDetectedModal extends EosVoterModal {
     canclose() { return false; };
     get_internal_content() {
     return [
-             m('h1', 'Could not connect to scatter.'),
-             m('h2', 'You need to install Scatter'),
-             m('a', { href: 'https://scatter-eos.com', target: '_blank'}, 'Download scatter'),
-             m('p', 'If you are using Scatter Desktop you start it and unlock.'),
+             m('h1', 'Could not connect to vankia wallet.'),
+             m('h2', 'You need to install vankia wallet'),
+             m('a', { href: 'https://github.com/vankiaio/VKScatterDesktop/releases/tag/10.0.5', target: '_blank'}, 'Download vankia wallet'),
+             m('p', 'If you are using vankia wallet Desktop you start it and unlock.'),
              m('h2', 'Go back'),
              m('a', { href: '/'}, 'Go back'),
            ];

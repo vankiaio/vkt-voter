@@ -13,7 +13,7 @@ config.chain_secure_port = '38888'
 */
 
 
-//If connecting via the scatter web extension use these settings
+//If connecting via the vankia wallet use these settings
 config.chain_addr = '221.122.119.226'
 // Port to connect to the API
 config.chain_port = '8888'
