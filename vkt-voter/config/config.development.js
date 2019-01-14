@@ -26,7 +26,7 @@ config.chain_secure_port = '8888'
 
 
 /*
-//If connecting via the scatter desktop application use these settings
+//If connecting via the vankia wallet desktop application use these settings
 config.chain_addr = 'node1.eosphere.io'
 // Port to connect to the API
 config.chain_port = '443'
